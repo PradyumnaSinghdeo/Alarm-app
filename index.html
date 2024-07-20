@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer-input-section">
+      <h1 id="verification_heading">Set Timer</h1>
+      <input type="number" id="hours" placeholder="HH">
+      <input type="number" id="minutes" placeholder="MM">
+      <input type="number" id="seconds" placeholder="SS">
+      <button id="start-timer">Start New Timer</button>
+    </div>
+    <div class="active-timers-display-section">
+      <h2 id="verification_subtext">Active Timers</h2>
+      <div id="timers-container" class="code-container"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
